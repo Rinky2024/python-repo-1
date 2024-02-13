@@ -1,16 +1,30 @@
-# python-repo-1
+# Instructions for Using the Code
 
-Pre-requirements:
-•	Start a git repository and make multiple commits.  At a minimum one commit per bullet below. 
+## How to run the code:
 
-●	Move each program to a separate source code file.
+1. Clone the repository.
 
-●	Write a main function on a different file that calls all functions
+  git clone https://github.com/Rinky2024/python-repo-1.git
 
-●	Run each algorithm in parallel with multi-thread processing.
+2. Navigate to the project directory.
 
-●	Read inputs from a file located in a separate sub-folder.
+  cd python-repo-1
 
-●	Write unit-tests for each function in the code.
+3. Run the main.py file.
 
-●	Include a README file with instructions on how to use the code.
+  python main.py
+
+
+## File Structure:
+
+main.py: Contains the main function to run all the programs in parallel.
+program1.py: Defines the function for Program 1 - word frequency.
+program2.py: Defines the classes for Program 2 - Shape and Square.
+subfolder/input.txt: Input file containing the text for Program 1.
+
+## Unit Tests:
+
+Unit tests for Program 2 can be found in the program2.py file. To run the tests:
+
+  python -m unittest program2.py
+
